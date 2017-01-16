@@ -29,4 +29,5 @@ function draw() {
         yoff += inc;
     }
     updatePixels();
+    noiseDetail(32, 0.5);
 }
